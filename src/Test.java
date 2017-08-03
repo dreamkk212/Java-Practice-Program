@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 
+
 /**
  * CLASS / TYPE DESCRIPTION GOES HERE.
  *
@@ -27,6 +28,7 @@ public class Test {
         int[] c = new int[] {9, 38,16, 1, 8, 32,104};
         quickSort(c , 0,c.length-1);
       System.out.println(Arrays.toString(c));
+      System.out.println("<NULL>".equals("12345678"));
     }
 
     @SuppressWarnings("rawtypes")

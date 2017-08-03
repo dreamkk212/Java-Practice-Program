@@ -64,11 +64,11 @@ public class DoubleStack<E> {
         DoubleStack.push(18);
         DoubleStack.push(20);
         System.out.println("size of DoubleStack" + DoubleStack.size());
-        System.out.println("pop an element" + DoubleStack.peek());
+        System.out.println("peek an element" + DoubleStack.peek());
         System.out.println("pop an element" + DoubleStack.pop());
-        System.out.println("search an element" + DoubleStack.search(18));
+        System.out.println("search an element returns index" + DoubleStack.search(18));
         DoubleStack.push(18);
-        System.out.println("push an element" + DoubleStack.peek());
+        System.out.println("peek an element" + DoubleStack.peek());
         System.out.println("size of DoubleStack" + DoubleStack.size());
         System.out.println("DoubleStack empty" + DoubleStack.isEmpty());
     }
